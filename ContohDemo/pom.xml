@@ -51,9 +51,23 @@
 	    <groupId>mysql</groupId>
 	    <artifactId>mysql-connector-java</artifactId>
 	</dependency>
-		
-			
-		
+
+		<!-- https://mvnrepository.com/artifact/pmd/pmd -->
+	<dependency>
+	    <groupId>pmd</groupId>
+	    <artifactId>pmd</artifactId>
+	</dependency>
+		<!-- https://mvnrepository.com/artifact/checkstyle/checkstyle -->
+	<dependency>
+	    <groupId>checkstyle</groupId>
+	    <artifactId>checkstyle</artifactId>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.google.code.findbugs/jsr305 -->
+	<dependency>
+	    <groupId>com.google.code.findbugs</groupId>
+	    <artifactId>jsr305</artifactId>
+	</dependency>
+
 	</dependencies>
 
 	<build>
